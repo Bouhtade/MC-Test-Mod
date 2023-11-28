@@ -1,7 +1,8 @@
 # MC-Test-Mod
 
 Rajoute du rubis dispo uniquement dans l'inventaire créatif.
-![ruby](https://github.com/Bouhtade/MC-Test-Mod/assets/152260314/a8b0ee89-2a60-4f84-8b68-285b5ed6f531)
+![Capture d'écran 2023-11-28 154814](https://github.com/Bouhtade/MC-Test-Mod/assets/152260314/4d5a72e3-965e-4103-a991-a3d3f7e54d5c)
+
 
 
 Runs on Forge for Minecraft 1.20.1
