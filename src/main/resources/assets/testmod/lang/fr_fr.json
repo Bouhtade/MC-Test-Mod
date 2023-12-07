@@ -1,4 +1,6 @@
 {
   "item.testmod.ruby": "Rubis",
-  "item.testmod.raw_ruby": "Rubis Brut"
+  "item.testmod.raw_ruby": "Rubis Brut",
+
+  "creativetab.test_tab": "Tab Test"
 }
