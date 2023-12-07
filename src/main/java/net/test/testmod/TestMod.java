@@ -48,6 +48,7 @@ public class TestMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.RAW_RUBY);
         }
     }
 
