@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.test.testmod.item.ModCreativeModTabs;
 import net.test.testmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,6 +27,8 @@ public class TestMod
     public TestMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
@@ -48,6 +51,7 @@ public class TestMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.RAW_RUBY);
         }
     }
 
